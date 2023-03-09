@@ -7,7 +7,7 @@ package hundirlaflota;
  * @author crbel
  *
  */
-public class Hundirlaflota {
+public class HundirLaFlota {
 
 	/**
 	 * @param args
