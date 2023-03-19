@@ -22,6 +22,25 @@ public class Furgoneta extends Vehiculo {
 		super(matricula, marca);
 		this.longitud = longitud;
 	}
+
+	public float getLongitud() {
+		return longitud;
+	}
+
+	public void setLongitud(float longitud) {
+		this.longitud = longitud;
+	}
+
+	@Override
+	public String toString() {
+		return "Furgoneta [longitud=" + longitud + ", matricula=" + matricula + ", marca=" + marca + ", fechaEntrada="
+				+ fechaEntrada + ", minutos=" + minutos + ", numPlazaAparcamiento=" + numPlazaAparcamiento + "]";
+	}
+
+	@Override
+	public float calcularImporte() {
+		return super.calcularImporte() + (Parking.PRECIO_POR_METRO * longitud);
+	}
 	
 	
 
