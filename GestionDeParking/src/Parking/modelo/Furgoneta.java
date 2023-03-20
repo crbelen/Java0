@@ -3,8 +3,6 @@
  */
 package Parking.modelo;
 
-import java.time.LocalDateTime;
-
 /**
  * @author crbel
  *

@@ -3,6 +3,7 @@
  */
 package Parking.modelo;
 
+
 import java.time.LocalDateTime;
 import java.util.Objects;
 
@@ -20,6 +21,11 @@ public class Vehiculo {
 	
 	
 	public Vehiculo() {
+	}
+	
+
+	public Vehiculo(String matricula) {
+		this.matricula = matricula;
 	}
 
 
